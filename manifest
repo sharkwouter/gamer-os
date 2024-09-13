@@ -120,11 +120,6 @@ export PACKAGES="\
 	nfs-utils \
 	noto-fonts-emoji \
 	nss-mdns \
-	nvidia-dkms \
-	opencl-nvidia \
-	lib32-opencl-nvidia \
-	nvidia-utils \
-	lib32-nvidia-utils \
 	nvidia-prime \
 	openal \
 	openrazer-daemon \
@@ -222,7 +217,6 @@ export AUR_PACKAGES="\
 	libretro-stella2014-git \
 	libretro-virtualjaguar-git \
 	linux-firmware-valve \
-	kanit-font \
 	nintendo-udev \
 	opengamepadui-bin \
 	opengamepadui-session-git \
@@ -235,12 +229,14 @@ export AUR_PACKAGES="\
 	rtl88x2bu-dkms-git \
 	rtl8821au-dkms-git \
 	ryzenadj-git \
-	steam_notif_daemon \
 	steam-powerbuttond-git \
 	steam-removable-media-git \
 	wyvern \
 	xpadneo-dkms-git \
 	zenergy-dkms-git \
+	nvidia-550xx-dkms \
+	opencl-550xx-nvidia \
+	nvidia-550xx-utils \
 "
 
 export SERVICES="\
